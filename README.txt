@@ -3,7 +3,7 @@
 A functional and responsive web-based task management application built using the **Model-View-Controller (MVC)** architecture. This project was developed as a collaborative effort to solve daily productivity challenges through a structured software development life cycle.
 
 ## 🚀 Live Demo
-Check out the live application here: [miracle-project.great-site.net](http://miracle-project.great-site.net)
+[Click Here to View the App](http://miracle-project.great-site.net)
 
 ---
 
