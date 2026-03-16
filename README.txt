@@ -63,4 +63,8 @@ Developing this project provided deep insights into:
 *   **Collaboration:** Coordinating with team members to integrate frontend and backend components effectively.
 
 ---
+
+## Check out my Data Science project: 
+https://ro-id-tech-dashboard.streamlit.app/
+
 *Created as a part of a Computer Science Portfolio Project.*
