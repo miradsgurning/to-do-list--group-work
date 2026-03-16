@@ -1,43 +1,66 @@
-PROYEK UAS - PEMROGRAMAN WEB
+# To-Do List Application (Collaborative Project)
 
-Nama Proyek: Elite Squad To-Do List
-Mata Kuliah: Proyek Pemrograman web
-Dosen Pengampu: Kornelius Sitepu., M.Kom
+A functional and responsive web-based task management application built using the **Model-View-Controller (MVC)** architecture. This project was developed as a collaborative effort to solve daily productivity challenges through a structured software development life cycle.
 
-1. Informasi Kelompok
-    Nama Kelompok: Elite Squad
-    Anggota Kelompok:
-    1. Mira Dila Syafitri Gurning - 202301033
-    2. Sun Angel Febyani - 202301053
-    3. Farrel Diva Eliasar - 202301012
-    4. Jonatan Hose Sihombing - 202301033
-    5. Wira Astika Sihite - 202301057
-    6. Putri Sonaria Damanik - 202302017
+## 🚀 Live Demo
+Check out the live application here: [miracle-project.great-site.net](http://miracle-project.great-site.net)
 
-2. Deskripsi Singkat Aplikasi
-    Elite Squad To-Do List adalah aplikasi pencatatan tugas harian berbasis web yang dibangun dengan framework CodeIgniter 4. 
-    Aplikasi ini berfokus pada kemudahan penggunaan untuk memantau produktivitas individu maupun kelompok.
+---
 
-3. Daftar Fitur Utama
-    1. Manajemen Tugas (CRUD): Menambah, melihat, dan menghapus daftar tugas.
-    2. Update Status: Mengubah status tugas dari 'Aktif' menjadi 'Selesai' atau sebaliknya.
-    3. Filtering: Menyaring tugas berdasarkan status (Semua, Aktif, Selesai).
-    4. Searching: Mencari tugas berdasarkan kata kunci judul.
-    5. Penyimpanan Data Persisten (Persisten Storage): Data tidak hilang ketika sesi aplikasi berakhir
-    6. UI Responsif: Desain modern menggunakan Bootstrap 5 yang ramah di perangkat mobile.
-    7. Upload File Gambar: Identitas visual logo kampus pada bagian header.
+## 🛠️ Tech Stack
+*   **Backend Framework:** CodeIgniter 4 (PHP)
+*   **Database:** MySQL
+*   **Frontend:** HTML5, CSS3, JavaScript (Bootstrap 5)
+*   **Tools:** Composer, Git, InfinityFree Hosting
 
-4. Akun Demo
-    Aplikasi ini tidak menggunakan sistem login (akses publik untuk kebutuhan demo tugas).
+---
 
-5. Cara Menjalankan Aplikasi
-    1. Ekstrak file .zip ke folder server lokal Anda (Contoh: htdocs pada XAMPP).
-    2. Buat database baru bernama db_todo (atau sesuai keinginan) di phpMyAdmin.
-    3. Impor file database.sql yang disertakan ke dalam database tersebut.
-    4. Buka file .env di folder root proyek dan sesuaikan konfigurasi database:
-        - database.default.hostname = localhost
-        - database.default.database = db_todo
-        - database.default.username = root
-        - database.default.password = 
-    5. Buka terminal/CMD di folder proyek, lalu jalankan perintah: php spark serve.
-    6. Akses aplikasi melalui browser di alamat: http://localhost:8080.
+## ✨ Key Features
+*   **Full CRUD Functionality:** Create, Read, Update, and Delete tasks seamlessly.
+*   **Status Tracking:** Quickly filter tasks by "All", "Active", or "Completed" status.
+*   **Responsive Design:** Optimized for both desktop and mobile viewing.
+*   **Database Integration:** Persistent data storage using MySQL.
+*   **Search Functionality:** Integrated search bar to find specific tasks by keywords.
+*   **Security:** Implemented environment-specific configurations (.env) for secure deployment.
+
+---
+
+## 👥 My Contribution (Team: EliteSquad)
+In this collaborative project, my primary responsibilities included:
+*   **Backend Logic:** Developed core controllers and models for task manipulation using CI4.
+*   **Database Management:** Designed the MySQL schema and handled data migration from local to production servers.
+*   **Server Deployment:** Configured the Apache server (.htaccess) and managed the deployment process on a live hosting environment.
+
+---
+
+## ⚙️ Installation & Setup
+If you wish to run this project locally, please follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com
+    ```
+2.  **Install dependencies:**
+    *(Note: The `/vendor` folder is ignored for best practices. Run composer to install)*
+    ```bash
+    composer install
+    ```
+3.  **Environment Configuration:**
+    *   Rename `env` to `.env`.
+    *   Set `CI_ENVIRONMENT = development`.
+    *   Configure your local database credentials in the `.env` file.
+4.  **Run the application:**
+    ```bash
+    php spark serve
+    ```
+
+---
+
+## 📈 Learning Outcomes
+Developing this project provided deep insights into:
+*   **MVC Architecture:** Understanding the separation of concerns for scalable applications.
+*   **Troubleshooting:** Resolving complex deployment issues and server-side errors (HTTP 500, Database Connection).
+*   **Collaboration:** Coordinating with team members to integrate frontend and backend components effectively.
+
+---
+*Created as a part of a Computer Science Portfolio Project.*
