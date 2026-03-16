@@ -64,7 +64,7 @@ Developing this project provided deep insights into:
 
 ---
 
-## Check out my Data Science project: 
-https://ro-id-tech-dashboard.streamlit.app/
+## Other Project
+**[Export Analysis (Data Analytics)](https://ro-id-tech-dashboard.streamlit.app/):** 
 
 *Created as a part of a Computer Science Portfolio Project.*
